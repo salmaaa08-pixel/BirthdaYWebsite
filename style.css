@@ -252,8 +252,18 @@ body {
     height: 90px;
   }
 
-  .easter-egg {
-    font-size: 2.8em;
+ .easter-egg {
+    font-size: 2.5em;
+  }
+
+  #cupcake {
+    top: 1%;
+    left: 2%;
+  }
+
+  #balloon {
+    bottom: 1%;
+    right: 2%;
   }
 
   #message-section {
