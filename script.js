@@ -55,14 +55,11 @@ continueBtn.addEventListener("click", function() {
   mainPage.classList.remove("hidden");
 });
 
-
 const cupcake = document.getElementById("cupcake");
 const balloon = document.getElementById("balloon");
-const present = document.getElementById("present");
 
 const cupcakeMessage = "You make everything sweeter 🧁";
-const balloonMessage = "Here's to another year of you shining bright 🧁";
-
+const balloonMessage = "Here's to another year of you shining bright 🎈";
 
 cupcake.addEventListener("click", function() {
   showHiddenNote(cupcakeMessage, cupcake);
@@ -72,9 +69,6 @@ balloon.addEventListener("click", function() {
   showHiddenNote(balloonMessage, balloon);
 });
 
-
-
-
 function showHiddenNote(message, eggElement) {
   const note = document.createElement("div");
   note.classList.add("popup-note");
@@ -82,7 +76,7 @@ function showHiddenNote(message, eggElement) {
 
   eggElement.parentElement.appendChild(note);
 
-const eggTop = eggElement.offsetTop;
+  const eggTop = eggElement.offsetTop;
   const eggLeft = eggElement.offsetLeft;
   const eggWidth = eggElement.offsetWidth;
 
@@ -93,6 +87,7 @@ const eggTop = eggElement.offsetTop;
     note.remove();
   }, 2500);
 }
+
 function launchConfetti() {
   const colors = ["#f3a9bd", "#f9dde4", "#ffd6a5", "#fff0f3", "#d88ba0"];
 
