@@ -246,13 +246,15 @@ body {
     font-size: 0.9em;
   }
 
-  .popup-note {
+ .popup-note {
     font-size: 0.75em;
     padding: 8px 12px;
     white-space: normal;
     max-width: 150px;
   }
+}
 
+@media (max-width: 350px) {
  
 
 @media (max-width: 350px) {
