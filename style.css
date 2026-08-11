@@ -64,6 +64,7 @@ body {
 
 #main-page {
   position: relative;
+  min-height: 100vh;
 }
 #easter-egg-row {
   display: flex;
@@ -277,9 +278,6 @@ body {
     max-width: 150px;
   }
 }
-
-@media (max-width: 350px) {
- 
 
 @media (max-width: 350px) {
   h1 {
