@@ -261,9 +261,10 @@ body {
     left: 2%;
   }
 
-  #balloon {
-    bottom: 1%;
+ #balloon {
+    top: 78%;
     right: 2%;
+    bottom: auto;
   }
 
   #message-section {
