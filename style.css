@@ -39,10 +39,11 @@ body {
 
 #photo-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 130px);
   gap: 15px;
   justify-content: center;
-  margin: 30px 0;
+  margin: 30px auto;
+  width: fit-content;
 }
 
 .photo-box {
