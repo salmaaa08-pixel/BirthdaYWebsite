@@ -100,6 +100,7 @@ function launchConfetti() {
     piece.style.animationDuration = (Math.random() * 2 + 3) + "s";
 
     document.body.appendChild(piece);
+    
 
     setTimeout(function() {
       piece.remove();
