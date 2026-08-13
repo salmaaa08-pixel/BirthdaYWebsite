@@ -28,7 +28,26 @@ body {
   color: #c96b7d;
   font-size: 0.9em;
 }
+#friendship-counter {
+  background-color: #fff0f3;
+  border-radius: 16px;
+  padding: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
 
+#counter-label {
+  margin: 0;
+  font-size: 13px;
+  color: #d88ba0;
+}
+
+#counter-number {
+  margin: 4px 0 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #6b4a4a;
+}
 #message-section {
   background-color: #fff0f3;
   border-radius: 20px;
