@@ -82,13 +82,15 @@ body {
 }
 
 #cupcake {
+  position: absolute;
   top: 2%;
   left: 3%;
 }
 
 #balloon {
-  bottom: 2%;
-  right: 3%;
+  position: static;
+  display: block;
+  margin: 15px auto;
 }
 .easter-egg:hover {
   transform: scale(1.2);
@@ -261,12 +263,7 @@ body {
     left: 2%;
   }
 
- #balloon {
-    top: 78%;
-    right: 2%;
-    bottom: auto;
-  }
-
+ 
   #message-section {
     padding: 15px;
     font-size: 0.9em;
