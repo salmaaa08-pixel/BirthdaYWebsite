@@ -58,8 +58,8 @@ continueBtn.addEventListener("click", function() {
 const cupcake = document.getElementById("cupcake");
 const balloon = document.getElementById("balloon");
 
-const cupcakeMessage = "You make everything sweeter 🧁";
-const balloonMessage = "Here's to another year of you shining bright 🎈";
+const cupcakeMessage = "You are the spark to my dark ✨ ";
+const balloonMessage = "Here's to another year of you shining bright ✨ ";
 
 cupcake.addEventListener("click", function() {
   showHiddenNote(cupcakeMessage, cupcake);
