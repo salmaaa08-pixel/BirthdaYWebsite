@@ -4,11 +4,8 @@ const today = new Date();
 const diffTime = today - friendshipStart;
 const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-const years = Math.floor(diffDays / 365);
-const remainingDays = diffDays % 365;
-
 const counterNumber = document.getElementById("counter-number");
-counterNumber.textContent = years + " years, " + remainingDays + " days";
+counterNumber.textContent = diffDays + " days";
 const errorMsg = document.getElementById("error-msg");
 const lockScreen = document.getElementById("lock-screen");
 const celebrationPage = document.getElementById("celebration-page");
