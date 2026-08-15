@@ -1,5 +1,5 @@
 const correctPasscode = "170806";
-const friendshipStart = new Date("2024-03-10");
+const friendshipStart = new Date("2024-10-03");
 const today = new Date();
 const diffTime = today - friendshipStart;
 const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
